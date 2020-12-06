@@ -1,0 +1,155 @@
+@font-face {
+  font-family: aoki;
+  src: url(../mmfiles/fonts/AokiRegular.otf);
+}
+
+body {
+  font-family: aoki;
+  background-color: #27282e;
+  color: #f5feff;
+  font-size: 1vw;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-left: 1vw
+}
+
+.sources-content {
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 3vh;
+}
+
+/*Social media tags*/
+
+.media-links-vis > a{
+  text-decoration: none;
+  background-image: url("../images/social_media_sprites.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.media-links-vis {
+  text-align: center;
+}
+
+.facebook {
+  background-position: -250px 0;
+}
+.facebook:hover {
+  background-position: -250px -50px;
+}
+.facebook:active {
+  background-position: -250px -100px;
+}
+
+.instagram {
+  background-position: -50px 0;
+}
+.instagram:hover {
+  background-position: -50px -50px;
+}
+.instagram:active {
+  background-position: -50px -100px;
+}
+
+.twitter {
+  background-position: -150px 0;
+}
+.twitter:hover {
+  background-position: -150px -50px;
+}
+.twitter:active {
+  background-position: -150px -100px;
+}
+
+.youtube {
+  background-position: -200px 0;
+}
+.youtube:hover {
+  background-position: -200px -50px;
+}
+.youtube:active { 
+  background-position: -200px -100px;
+}
+
+.spotify {
+  background-position: -100px 0;
+}
+.spotify:hover {
+  background-position: -100px -50px;
+}
+.spotify:active {
+  background-position: -100px -100px;
+}
+
+.website {
+  background-position: 0 0;
+}
+.website:hover {
+  background-position: 0 -50px;
+}
+.website:active {
+  background-position: 0 -100px;
+}
+
+aside {
+  z-index: 3;
+  position: fixed;
+  right: 1.2%;
+  top: 13vh;
+  background-color:#191A1F;
+  width: 64px;
+  border-radius: 10px;
+}
+
+#media-links > a {
+  text-decoration: none;
+  background-image: url("../images/social_media_sprites.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  z-index: 3;
+}
+
+#media-links{
+  visibility: hidden;
+  text-align:center;
+}
+#media-links:target{
+  visibility: visible;
+}
+#arrows {
+  right:1%;
+  background-color: #27282ea6;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 2;
+}
+#arrows > a {
+  text-decoration: none;
+  font-size: 4vw;
+  color: black;
+  font-weight: bold;
+}
+#arrow1:hover {
+  color: #5D5D5D;
+}
+#arrow1:active {
+  color: #57BEC2;
+}
+#arrow2:hover {
+  color: #5D5D5D;
+}
+#arrow2:active {
+  color: #57BEC2;
+}
+
+#audio {
+  z-index: 3;
+  position: absolute;
+  right: 7%;
+  top: 3.4%;
+  width: 15vw;
+}

@@ -1,0 +1,54 @@
+#sidebar-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5.5vw;
+}
+
+nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  background-color: #191a1f;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 0.95vw;
+}
+
+nav img {
+  margin-bottom: 10px;
+}
+
+/* Sidebar links */
+nav > a {
+  display: block;
+  color: #27282E;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Active/current link */
+nav a.active {
+  background-color: #57bec2;
+  color: white;
+}
+
+/* Links on mouse-over */
+nav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+/* Moving the page content to adjust ot the sidebar */
+.content {
+  margin-left: 18%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+
