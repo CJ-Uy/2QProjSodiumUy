@@ -10,6 +10,11 @@ body {
   font-size: 1vw;
 }
 
+.source-hyperlink{
+  text-decoration: none;
+  color:  #57BEC2;
+}
+
 h1 {
   font-size: 3vw;
   margin-left: 1vw
@@ -20,6 +25,7 @@ h1 {
   padding-right: 7vw;
   padding-bottom: 3vh;
 }
+
 
 /*Social media tags*/
 
