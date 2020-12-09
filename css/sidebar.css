@@ -24,7 +24,7 @@ nav img {
 /* Sidebar links */
 nav > a {
   display: block;
-  color: #27282E;
+  color: #27282e;
   padding: 10px;
   text-decoration: none;
   margin-left: auto;
@@ -56,8 +56,12 @@ nav a:hover:not(.active) {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -67,6 +71,3 @@ nav a:hover:not(.active) {
     float: none;
   }
 }
-
-
-
