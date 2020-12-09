@@ -51,22 +51,22 @@ nav a:hover:not(.active) {
 }
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .sidebar {
+  nav {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidebar a {
+  nav > a {
     float: left;
   }
-  div.content {
+  .content {
     margin-left: 0;
   }
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
-  .sidebar a {
+  nav > a {
     text-align: center;
     float: none;
   }
