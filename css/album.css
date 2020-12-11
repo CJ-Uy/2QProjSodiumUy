@@ -35,3 +35,19 @@ th, td{
   padding-right: 7vw;
   padding-bottom: 3vh;
 }
+
+.extra-albums {
+  font-size: 2vw;
+  margin-left: 20vw;
+}
+.extra-albums-cover{
+  width: 25vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.more-info-extra-albums{
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
