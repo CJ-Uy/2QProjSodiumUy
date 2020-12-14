@@ -122,43 +122,18 @@ aside {
   z-index: 3;
 }
 
-#media-links{
-  visibility: hidden;
-  text-align:center;
-}
-#media-links:target{
-  visibility: visible;
-}
-#arrows {
-  right:1%;
-  background-color: #27282ea6;
-  border-radius: 10px;
-  position: fixed;
-  z-index: 2;
-}
-#arrows > a {
-  text-decoration: none;
-  font-size: 4vw;
-  color: black;
-  font-weight: bold;
-}
-#arrow1:hover {
-  color: #5D5D5D;
-}
-#arrow1:active {
-  color: #57BEC2;
-}
-#arrow2:hover {
-  color: #5D5D5D;
-}
-#arrow2:active {
-  color: #57BEC2;
-}
-
 #audio {
   z-index: 3;
   position: absolute;
   right: 7%;
   top: 3.4%;
   width: 15vw;
+}
+
+.toggle-multi-links-button {
+  width: 30vw;
+  height: 30vw;
+}
+#media-links{
+  transition: max-height .2s;
 }
