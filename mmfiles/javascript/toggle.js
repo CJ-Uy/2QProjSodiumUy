@@ -11,9 +11,9 @@ function toggleSprite() {
 }
 
 function openSprite() {
-    document.getElementById("sprites").style.maxHeight = "300px";
+    document.getElementById("media-links").style.maxHeight = "150vh";
 }
 
 function closeSprite() {
-    document.getElementById("sprites").style.maxHeight = "0";
+    document.getElementById("media-links").style.maxHeight = "0";
 }
