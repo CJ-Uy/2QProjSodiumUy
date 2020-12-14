@@ -134,6 +134,6 @@ aside {
   width: 30vw;
   height: 30vw;
 }
-#media-links{
+.media-links{
   transition: max-height .2s;
 }
